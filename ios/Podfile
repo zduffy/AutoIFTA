@@ -1,0 +1,7 @@
+platform :ios, '11.0'
+target 'AutoIFTA' do
+pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga/Yoga.podspec'
+pod 'GoogleMaps'
+pod 'RNDeviceInfo', :path => '../node_modules/react-native-device-info'
+
+end
